@@ -10,6 +10,6 @@ spec:
     app: nodejs
   ports:
     - port: 3007        # Service port
-      targetPort: 3000  # Container port (Tomcat)
+      targetPort: 3000  # Container port 
       protocol: TCP
       nodePort: 31000
